@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.15.0">
     <businessObjects>
-        <businessObject qualifiedName="com.company.model.BusinessObject">
+        <businessObject qualifiedName="com.company.aprovacao.BusinessObject">
             <fields>
                 <field type="STRING" length="255" name="attribute" nullable="true" collection="false"/>
             </fields>
@@ -9,7 +9,20 @@
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.company.model.BusinessObject2">
+        <businessObject qualifiedName="com.company.captacao.Cliente">
+            <fields>
+                <field type="LONG" length="255" name="id" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="nome" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="email" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="mensagem" nullable="false" collection="false"/>
+                <field type="OFFSETDATETIME" length="255" name="dataRecebimento" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="status" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.captacao.InteracaoCliente">
             <fields>
                 <field type="STRING" length="255" name="attribute" nullable="true" collection="false"/>
             </fields>
@@ -17,7 +30,7 @@
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.company.model.BusinessObject3">
+        <businessObject qualifiedName="com.company.captacao.Tarefa">
             <fields>
                 <field type="STRING" length="255" name="attribute" nullable="true" collection="false"/>
             </fields>
