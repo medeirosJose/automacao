@@ -69,7 +69,9 @@
     </user>
     <user userName="Rodrigo">
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>rodrigo@ejpixel.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
@@ -81,13 +83,18 @@
     </user>
     <user userName="Thiago">
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>thiago@ejpixel.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
     <user userName="Tom">
+      <manager></manager>
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>tom@ejpixel.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
